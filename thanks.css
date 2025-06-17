@@ -1,0 +1,29 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.check-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+}
+
+.text {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+#header {
+  background-color: #173765;
+}

@@ -1,0 +1,62 @@
+.hero-btn-div {
+  display: flex;
+  gap: 2rem;
+}
+
+.reach-us__button {
+  padding: 12px 24px;
+  background-color: var(--blue);
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.reach-us__button:hover {
+  background: var(--yellow);
+  color: var(--blue);
+}
+
+.hero-btn-div > .profile__button {
+  padding: 12px 24px;
+  background-color: transparent;
+  color: var(--blue);
+  border-radius: 8px;
+  font-weight: bold;
+  border: 2px solid var(--blue);
+}
+
+.hero-btn-div > .profile__button:hover {
+  color: var(--yellow);
+  border: 2px solid var(--yellow);
+}
+
+.hero-cirle-1 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: var(--blue);
+  opacity: 10%;
+  top: 300px;
+  left: -50px;
+}
+
+.hero-cirle-2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: var(--blue);
+  opacity: 10%;
+  top: -300px;
+  left: 500px;
+}
+
+.hero-rect {
+  position: absolute;
+  width: 500px;
+  height: 1000px;
+  background: var(--blue);
+  top: 250px;
+  right: 0px;
+  transform: rotate(60deg);
+}

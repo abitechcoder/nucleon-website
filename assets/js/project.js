@@ -110,12 +110,30 @@ document.addEventListener("DOMContentLoaded", () => {
         "/assets/img/projects/clinton-oil/pic7.jpeg",
       ],
     },
+    8: {
+      title: "Works",
+      status: "Ongoing",
+      client: "Librod Energy Services",
+      coverVideoUrl: "/assets/img/projects/librod/video.mp4",
+      coverImageUrl: "",
+      gallery: [
+        "/assets/img/projects/librod/1.jpeg",
+        "/assets/img/projects/librod/2.jpeg",
+        "/assets/img/projects/librod/3.jpeg",
+        "/assets/img/projects/librod/4.jpeg",
+        "/assets/img/projects/librod/5.jpeg",
+        "/assets/img/projects/librod/6.jpeg",
+        "/assets/img/projects/librod/7.jpeg",
+        "/assets/img/projects/librod/8.jpeg",
+        "/assets/img/projects/librod/9.jpeg",
+        "/assets/img/projects/librod/10.jpeg",
+      ],
+    },
   };
 
   // Function to load project details dynamically
   function loadProjectDetails(projectId) {
     const project = projects[projectId];
-    console.log("Project:", project);
     if (project) {
       document.getElementById("projectTitle").textContent = project.title;
       document.getElementById("projectStatus").textContent = project.status;

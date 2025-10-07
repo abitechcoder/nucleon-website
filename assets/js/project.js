@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     7: {
       title: "Fabrication of 500bbl horizontal tanks",
-      status: "Ongoing",
+      status: "Completed",
       client: "Clinton Oil Field",
       coverVideoUrl: "",
       coverImageUrl: "/assets/img/projects/clinton-oil/pic8.jpeg",
@@ -111,8 +111,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
     },
     8: {
-      title: "Works",
-      status: "Ongoing",
+      title: "Fabrication Works",
+      status: "Completed",
       client: "Librod Energy Services",
       coverVideoUrl: "/assets/img/projects/librod/video.mp4",
       coverImageUrl: "",
@@ -127,6 +127,19 @@ document.addEventListener("DOMContentLoaded", () => {
         "/assets/img/projects/librod/8.jpeg",
         "/assets/img/projects/librod/9.jpeg",
         "/assets/img/projects/librod/10.jpeg",
+      ],
+    },
+    9: {
+      title: "Fabrication and Installation of Test Bench Equipment Housing",
+      status: "Completed",
+      client: "IKOSH Nigeria Limited",
+      coverVideoUrl: "",
+      coverImageUrl: "/assets/img/projects/ikosh/4.jpg",
+      gallery: [
+        "/assets/img/projects/ikosh/1.jpg",
+        "/assets/img/projects/ikosh/2.jpg",
+        "/assets/img/projects/ikosh/3.jpg",
+        "/assets/img/projects/ikosh/4.jpg",
       ],
     },
   };

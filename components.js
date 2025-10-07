@@ -15,7 +15,7 @@ class Hero extends HTMLElement {
               construction.</p>
             <div class="hero-btn-div tw-mx-auto lg:tw-mx-0 tw-flex-col md:tw-flex-row">
               <a class="reach-us__button" href="contact.html">Connect with Us</a>
-              <a class="profile__button" href="https://firebasestorage.googleapis.com/v0/b/nucleon-projects-f3de6.appspot.com/o/company-profile.pdf?alt=media&token=56c0063f-f4df-462e-a8ee-ea5d1aad672d">See our profile</a>
+              <a class="profile__button" href="https://firebasestorage.googleapis.com/v0/b/nucleon-projects-f3de6.appspot.com/o/company-profile.pdf?alt=media&token=6574f554-5803-4bc8-9076-e61381083bf0">See our profile</a>
             </div>
           </div>
           <div class="tw-hidden lg:tw-grid tw-grid-cols-2 tw-grid-rows-6 tw-gap-2">
